@@ -16,8 +16,8 @@ if (geofs.aircraft.instance.id == 2) {
 	geofs.aircraft.instance.definition.parts[9].area = 0.069
 	geofs.aircraft.instance.definition.parts[10].area = 1
    //thrust and Vspeeds
-	geofs.aircraft.instance.definition.parts[19].thrust = 1500
-	geofs.aircraft.instance.definition.Vspeeds = {"VS0": 0, "VS": 0, "VFE": 0, "VNO": 70, "VNE": 120}
+	geofs.aircraft.instance.definition.parts[19].thrust = 4500
+	geofs.aircraft.instance.definition.Vspeeds = {"VS0": 0, "VS": 0, "VFE": 0, "VNO": 90, "VNE": 150}
 	//yoke anims
 	geofs.aircraft.instance.cockpitSetup.parts[10].animations[0].ratio = 0.0069
 	geofs.aircraft.instance.cockpitSetup.parts[11].animations[0].ratio = 0.0069

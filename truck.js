@@ -23,7 +23,7 @@ if (geofs.aircraft.instance.id == 2) {
 	geofs.aircraft.instance.cockpitSetup.parts[11].animations[0].ratio = 0.0069
 	geofs.aircraft.instance.cockpitSetup.parts[16].animations[1].threshold = -1
 	//CG adjust (whyyyy doesn't this work?)
-	geofs.aircraft.instance.definition.parts[0].CenterOfMass[1] = [0, 2, -2]
+	geofs.aircraft.instance.definition.parts[0].centerOfMass[1] = [2, 2, -2]
 } else {
    throw("Please switch to a Cessna 172 before running this mod")
 }
